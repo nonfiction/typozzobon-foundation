@@ -18,6 +18,10 @@ h1 {
     margin: 0 0 0.5em;
 }
 
+p {
+    margin: 2em 0;
+}
+
 .sub-heading {
     font-family: 'Roboto', sans-serif;
     display: block;
@@ -26,7 +30,7 @@ h1 {
 }
 
 .featured-image {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -72,10 +76,22 @@ h1 {
 
 .mission {
     font-size: 1.4em;
-    margin: 2em 0;
+    margin: 1.75em 0;
 }
 
 a {
     color: #FFF;
     text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    border: 4px solid #999;
+    color: #999;
+    padding: 0.35em 1em;
+}
+
+.btn:hover {
+    color: #bbb;
+    border-color: #bbb;
 }
