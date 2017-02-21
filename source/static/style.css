@@ -77,6 +77,7 @@ article.single {
 .navmain a:before {
     content: "\25C0";
     padding-right: 0.25em;
+    font-family: sans-serif;
 }
 
 p {
