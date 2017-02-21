@@ -18,6 +18,67 @@ h1 {
     margin: 0 0 0.5em;
 }
 
+h1 > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+article.single {
+    text-align: left;
+    font-size: 0.85em;
+}
+
+.article-list {
+    text-align: left;
+}
+
+.article-list ul {
+    list-style-type: none;
+    margin: 1em 0;
+    padding: 0;
+    border-bottom: 1px solid #777;
+}
+
+.article-list li {
+    border-top: 1px solid #777;
+}
+
+.article-list li a {
+    padding: 1em 0.25em;
+    display: block;
+}
+
+.donation-info {
+    font-size: 0.65em;
+    line-height: 1.4;
+    text-align: left;
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border: 1px solid #555;
+}
+
+.donation-info p {
+    margin: 1em 0;
+}
+
+.navmain {
+    text-align: left;
+    background-color: #222;
+    padding: 0.2em;
+    font-size: 0.85em;
+}
+
+.navmain a {
+    color: #777;
+    padding: 0.25em;
+}
+
+.navmain a:before {
+    content: "\25C0";
+    padding-right: 0.25em;
+}
+
 p {
     margin: 2em 0;
 }
@@ -61,6 +122,7 @@ p {
         margin-left: 30vw;
         background-color: transparent;
         font-size: 1.9vw;
+        width: 62vw;
     }
 
     .featured-image {

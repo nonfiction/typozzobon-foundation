@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hi</title>
-</head>
-<body>
-<p>Single - Hi</p>
-</body>
-</html>
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+{{ end }}
+
+{{ define "main" }}
+    <nav class="navmain">
+        <a href="/news/">News Releases</a>
+    </nav>
+    <article class="single">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </article>
+{{end}}

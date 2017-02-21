@@ -24,6 +24,6 @@ Fund raising initiatives of the Ty Pozzobon Foundation include donations, events
 
 This announcement marks the first time ever that the PBR in Canada has enjoyed the presence in some form of the CPRSMT at every single event throughout a single season.
 
-To donate to the Ty Pozzobon Foundation and for more information, visit <TyPozzobon.com>
+To donate to the Ty Pozzobon Foundation and for more information, visit [TyPozzobon.com](http://typozzobon.com)
 
-**About the Ty Pozzobon Foundation:** The Ty Pozzobon Foundation (TPF) was created in February of 2017 to protect and support the health and well-being of rodeo competitors inside and outside the arena. The TPF has the goal of placing and or assisting funding the Canadian Pro Rodeo Sports Medicine Team (CPRSMT) at every ProRodeo and PBR in Canada from now on. In addition, the TPF looks to educate, support and build the youth of sport of rodeo and bull riding. For more information visit <TyPozzobon.com>
+**About the Ty Pozzobon Foundation:** The Ty Pozzobon Foundation (TPF) was created in February of 2017 to protect and support the health and well-being of rodeo competitors inside and outside the arena. The TPF has the goal of placing and or assisting funding the Canadian Pro Rodeo Sports Medicine Team (CPRSMT) at every ProRodeo and PBR in Canada from now on. In addition, the TPF looks to educate, support and build the youth of sport of rodeo and bull riding. For more information visit [TyPozzobon.com](http://typozzobon.com)

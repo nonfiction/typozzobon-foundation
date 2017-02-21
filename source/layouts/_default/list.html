@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ty Pozzobon Foundation</title>
-    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="/style.css">
-</head>
-<body>
-<section class="featured-image"></section>
-<section class="main">
-    <h1>Ty Pozzobon Foundation</h1>
-    <p class="mission">To protect and support the health and well-being of rodeo competitors inside and outside the arena.</p>
-    <p>For more information, contact <a class="cta" href="mailto:info@typozzobon.com">info@typozzobon.com</a></p>
-    <p><a class="btn" href="#">News Releases</a></p>
-</section>
-</body>
-</html>
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }}
+
+{{ define "main" }}
+    {{ partial "nav_main.html" . }}
+    <div class="article-list">
+        <h2>News Releases</h2>
+        <ul>
+        {{ range $i, $p := (.Paginate .Data.Pages).Pages }}
+            <li>{{ $p.Render "li" }}</li>
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}
