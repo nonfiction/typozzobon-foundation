@@ -105,10 +105,17 @@ p {
     position: absolute;
     top: 0;
     padding: 10vh 4vw 2vh;
-    font-size: 3.5vw;
+    font-size: 4.1vw;
     background-color: rgba(0,0,0,0.5);
     min-height: 88vh;
     text-align: center;
+    width: 92vw;
+}
+
+@media (min-width: 580px) {
+    .main {
+        font-size: 3.5vw;
+    }
 }
 
 @media (min-width: 767px) {
