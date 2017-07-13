@@ -84,6 +84,14 @@ p {
     margin: 2em 0;
 }
 
+article.single p {
+    margin: 0.75em 0;
+}
+
+article.single h2 {
+    line-height: 1.2;
+}
+
 .sub-heading {
     font-family: 'Roboto', sans-serif;
     display: block;
