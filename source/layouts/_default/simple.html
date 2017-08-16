@@ -1,0 +1,15 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+{{ end }}
+
+{{ define "main" }}
+    <nav class="navmain">
+        <a href="/">Home</a>
+    </nav>
+    <article class="single">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </article>
+{{end}}
