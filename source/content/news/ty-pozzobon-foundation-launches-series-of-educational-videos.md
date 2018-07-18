@@ -11,6 +11,12 @@ date: 2018-07-17T20:34:39-06:00
 
 “We teamed up with the Canadian Pro Rodeo Sports Medicine Team to develop these educational videos to promote the health and well-being of our Western Sports athletes,” said Tanner Byrne, President of the Ty Pozzobon Foundation. “We started with the first one, concussion awareness, what they are and how to deal with them and what the repercussions can be.”
 
+<hr style="margin: 2em 0 1em;border-color:#555" />
+
+<iframe style="display:block;margin:0 auto" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTyPozzobonFoundation%2Fvideos%2F2054479417895974%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+<hr style="margin: 1em 0 2em;border-color:#555" />
+
 The next in the series addresses mental health.
 
 “There is more coming on health and well-being,” Byrne added. “Proper diets, workout regimens, we don’t have coaches or trainers so we are all on our own. With these videos we hope to help our athletes.”
@@ -30,7 +36,3 @@ The Canadian Pro Rodeo Sport Medicine Team (CPRSMT) not-for-profit organization 
 #### About the Ty Pozzobon Foundation (TPF):
 
 The Ty Pozzobon Foundation (TPF) was created in February of 2017 to protect and support the health and well-being of rodeo competitors inside and outside the arena. In conjunction with the Canadian Pro Rodeo Sports Medicine Team (CPRSMT), the Ty Pozzobon Foundation looks to educate, support and build the youth of sport of rodeo and bull riding. For more information visit [TyPozzobon.com](https://www.typozzobon.com/).
-
-<hr />
-
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTyPozzobonFoundation%2Fvideos%2F2054479417895974%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
