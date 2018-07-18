@@ -5,7 +5,7 @@ date: 2018-07-17T20:34:39-06:00
 
 ### The Ty Pozzobon Foundation, in partnership with the Canadian Pro Rodeo Sports Medicine Team, has launched the first video, addressing concussion awareness, of a planned multi-part series in a continued effort to promote the health and well-being of Western Sports athletes.
 
-*Release Date: July 17, 2018*
+*Release Date: July 18, 2018*
 
 **CALGARY, Alberta** – In a continued effort to protect and support the health and well-being of rodeo competitors inside and outside the arena, the Ty Pozzobon Foundation and the Canadian Pro Rodeo Sports Medicine Team (CPRSMT) announced their latest initiative Thursday night, proudly unveiling the first of a series of educational videos.
 
