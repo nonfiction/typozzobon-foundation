@@ -9,3 +9,9 @@ The `docs` directory is auto deployed as the Github Pages document root.
 
 - Hugo Static Site Generator (currently v0.18.1) <https://gohugo.io/>
 - Some kind of web server running with `docs` as the document root
+
+### Development
+
+    hugo server --source source
+    hugo new --source source news/example.md
+    ...

@@ -1,3 +1,6 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 body, html {
     background-color: #222;
     color: #aaa;
@@ -52,10 +55,11 @@ article.single {
     font-size: 0.65em;
     line-height: 1.4;
     text-align: left;
-    max-width: 32em;
+    max-width: 26rem;
     margin: 0 auto;
-    padding: 1em 2em;
+    padding: 1em 2rem;
     border: 1px solid #555;
+    background-color: rgba(10,10,10,0.6);
 }
 
 .donation-info p {
@@ -203,8 +207,39 @@ a {
   text-align: left;
   padding-left: 5%;
 }
-/* @media (min-width: 500px) { */
-/*   .store > a { */
-/*     font-size: 200px; */
-/*   } */
-/* } */
+
+.home-content .main-content {
+    margin: 3em 0;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.main-content h3 {
+    font-size: 1.1em;
+    margin: 0 0 0.25em;
+}
+
+.main-content p {
+    margin: 0 0 0.25em;
+}
+
+.main-content table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 26rem;
+    width: 100%;
+    background-color: rgba(10,10,10,0.6);
+}
+
+.main-content td, .main-content th {
+    padding: 0.25em 0.75em;
+    border: 1px solid #444;
+}
+
+.main-content th {
+    font-size: 1em;
+    opacity: 0.8;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}

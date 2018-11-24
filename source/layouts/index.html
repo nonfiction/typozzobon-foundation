@@ -5,23 +5,27 @@
 {{ end }}
 
 {{ define "main" }}
-    <h1><a href="/">Ty Pozzobon Foundation</a></h1>
-    <div class="home-content">
-        <p class="mission">To protect and support the health and well-being of rodeo competitors inside and outside the arena.</p>
-        <p>For more information, contact <a class="cta" href="mailto:info@typozzobon.com">info@typozzobon.com</a></p>
-        <p>
-            <a class="btn" href="/files/tpf_v5_web.pdf" target="_blank">About</a>
-            <a class="btn" href="/news/">News Releases</a>
-            <a class="btn" href="/store/">Store</a>
-        </p>
-        <div class="donation-info">
-            <p>Donations can be sent to:</p>
-            <p>
-                Ty Pozzobon Foundation <br />
-                PO Box 21082 <br />
-                Prince Albert, SK <br />
-                S6V 8A4
-            </p>
-        </div>
+<h1><a href="/">Ty Pozzobon Foundation</a></h1>
+<div class="home-content">
+    <p class="mission">To protect and support the health and well-being of rodeo competitors inside and outside the
+        arena.</p>
+    <p>For more information, contact <a class="cta" href="mailto:info@typozzobon.com">info@typozzobon.com</a></p>
+    <p>
+        <a class="btn" href="/files/tpf_v5_web.pdf" target="_blank">About</a>
+        <a class="btn" href="/news/">News Releases</a>
+        <a class="btn" href="/store/">Store</a>
+    </p>
+    <div class="main-content">
+        {{.Content}}
     </div>
+    <div class="donation-info">
+        <p>Donations can be sent to:</p>
+        <p>
+            Ty Pozzobon Foundation <br />
+            PO Box 21082 <br />
+            Prince Albert, SK <br />
+            S6V 8A4
+        </p>
+    </div>
+</div>
 {{end}}
