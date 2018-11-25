@@ -19,5 +19,10 @@ draft: false
     <td>FR3 117049</td>
     <td>$4,612.50</td>
 </tr>
+<tr>
+    <td>Nov. 24, 2018</td>
+    <td>SA3 203190</td>
+    <td>$9,662.50</td>
+</tr>
 </tbody>
 </table>
