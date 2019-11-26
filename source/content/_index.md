@@ -24,7 +24,7 @@ Winning 50/50 number from Friday [@PBRCanada](https://twitter.com/PBRCanada) Can
 <tr>
     <td>Nov. 23, 2019</td>
     <td>SA2-200930</td>
-    <td></td>
+    <td>$9,385.00</td>
 </tr>
 </tbody>
 </table>
