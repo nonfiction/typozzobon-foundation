@@ -1,0 +1,5 @@
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+<meta http-equiv="refresh" content="0; URL={{ .Param "redirect" }}">
+<link rel="canonical" href="{{ .Param "redirect" }}">
+{{ end }}
