@@ -1,17 +1,20 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
-body, html {
+body,
+html {
     background-color: #222;
     color: #aaa;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 22px;
     line-height: 1.6;
     background-color: #050505;
 }
 
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     text-align: center;
@@ -59,7 +62,7 @@ article.single {
     margin: 0 auto;
     padding: 1em 2rem;
     border: 1px solid #555;
-    background-color: rgba(10,10,10,0.6);
+    background-color: rgba(10, 10, 10, 0.6);
 }
 
 .donation-info p {
@@ -97,7 +100,7 @@ article.single h2 {
 }
 
 .sub-heading {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     display: block;
     font-size: 0.5em;
     font-weight: normal;
@@ -119,7 +122,7 @@ article.single h2 {
     top: 0;
     padding: 10vh 4vw 2vh;
     font-size: 4.1vw;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     min-height: 88vh;
     text-align: center;
     width: 92vw;
@@ -162,7 +165,7 @@ article.single h2 {
 }
 
 a {
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -182,35 +185,35 @@ a {
 }
 
 .store {
-  overflow: hidden;
-  padding: 20px 0;
+    overflow: hidden;
+    padding: 20px 0;
 }
 .store > a {
-  float: left;
-  display: block;
-  height: 300px;
-  width: 40%;
-  text-align: right;
-  padding-right: 5%;
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1);
-  transition: all 0.3s ease;
+    float: left;
+    display: block;
+    height: 300px;
+    width: 40%;
+    text-align: right;
+    padding-right: 5%;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    transition: all 0.3s ease;
 }
 .store > a:hover {
-  -webkit-filter: grayscale(0);
-  filter: none;
-  transform: scale(1.05);
+    -webkit-filter: grayscale(0);
+    filter: none;
+    transform: scale(1.05);
 }
 .store > a + a {
-  float: right;
-  text-align: left;
-  padding-left: 5%;
+    float: right;
+    text-align: left;
+    padding-left: 5%;
 }
 
 .home-content .main-content {
     margin: 3em 0;
-    text-align: left;
+    text-align: center;
     font-size: 0.9rem;
 }
 
@@ -223,20 +226,25 @@ a {
     margin: 0 0 0.25em;
 }
 
+.single table,
 .main-content table {
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 26rem;
     width: 100%;
-    background-color: rgba(10,10,10,0.6);
+    background-color: rgba(10, 10, 10, 0.6);
 }
 
-.main-content td, .main-content th {
+.main-content td,
+.main-content th,
+.single td,
+.single th {
     padding: 0.25em 0.75em;
     border: 1px solid #444;
 }
 
-.main-content th {
+.main-content th,
+.single th {
     font-size: 1em;
     opacity: 0.8;
     font-weight: normal;
